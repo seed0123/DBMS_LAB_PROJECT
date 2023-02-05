@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LOGIN PAGE</title>
+  <link rel="stylesheet" href="ilogin.css">
+
+</head>
+<body>
+	</br></br></br></br></br></br><h1 align="center">LOGIN PAGE</h1>
+<form action="ilogin.php" method="post">
+  <div class="login-details">
+	<p>USERNAME:</p>
+    <input type="text" name="username" id="username" placeholder="Username">
+	<p>PASSWORD:</p>
+    <input type="password" name="password" id="password" placeholder="Password">                         
+	<button type="submit" >submit</button> 
+  </div>
+</form>
+  
+</body>
+</html>

@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: times new roman;
+}
+body{
+	background:url(img.jpg) no-repeat;
+	background-size:cover;
+	color:#000;
+}
+.t_control-details{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform : translate(-50%, -50%);
+	width: 350px;
+}
+.t_control-details h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px 0;
+	color: #000;
+}
+.t_control-details P{
+	font-size: 16px;
+	margin: 10px 0;
+}
+.t_control-details input{
+	font-size:12px;
+	padding: 10px 5px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+.t_control-details button{
+	font-size: 12px;
+	font-weight: bold;
+	margin:16px 0;
+	padding:10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color:#fff;
+}
+.t_control-details button:hover{
+}
+	
+	

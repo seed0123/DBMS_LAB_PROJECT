@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEST INFORMATIN</title>
+	<link rel="stylesheet" type="text/css" href="test_info.css">
+</head>
+<body>
+	<div class="test-info">
+		<h1>Test information</h1>
+		<form action="test_info.php" method="post">
+			<p>NO.OF HOURS:</p>
+			<input type="datetime" name="hours" placeholder="HOURS">
+			<P>DATE OF EXAM:</p>
+			<input type="date" name="date" placeholder="DATE">
+			<p>score</p>
+			<input type="number" name="score" placeholder="SCORE">
+			<P>faa_no</p>
+			<input type="number" name="faa_no" placeholder="FAA_NO">
+			<p>reg_no:</p>
+			<input type="number" name="reg_no" placeholder="REG_NO">
+			<P>ssn:</p>
+			<input type="number" name="ssn" placeholder="SSN">
+			
+			<button type="submit" >Submit</button>
+			<a href="index.html">HOME</a>
+		</form>
+	</div>
+</body>
+</html>

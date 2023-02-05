@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRAFFIC CONTROLLER DETAILS</title>
+	<link rel="stylesheet" type="text/css" href="t_control.css">
+</head>
+
+<body>
+	<div class="t_control-details">
+		<h1>Traffic controller details details</h1>
+		<form action="t_control.php" method="post">
+			<p>Date:</p>
+			<input type="date" name="date" placeholder="date">
+			<P>u_num:</p>
+			<input type="number" name="u_num" placeholder="u_Num">
+			
+			<button type="submit" >submit</button></br>
+			<a href="index.html" style="color:black">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="t_controldisplay.php" style="color:black">DISPLAY</a>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TECNICIAN MOBILE DETAILS</title>
+	<link rel="stylesheet" type="text/css" href="tech_phn.css">
+</head>
+<body>
+	<div class="phnno-details">
+		<h1>phone number details</h1>
+		<form action="tech_phn.php" method="post">
+			<p>enter mobile1:</p>
+			<input  id="phone" type="tel" required pattern="[6-9]{1}[0-9]{9}" name="phnno1" placeholder="PHNNO1">
+			<P>enter mobile2:</p>
+			<input id="phone" type="tel" required pattern="[6-9]{1}[0-9]{9}" name="phnno2" placeholder="PHNNO2">
+			<P>ssn:</p>
+			<input type="number" name="ssn" placeholder="SSN">
+			<button type="submit" >submit</button>
+			<a href="index.html">HOME</a>
+		</form>
+	</div>
+</body>
+</html>

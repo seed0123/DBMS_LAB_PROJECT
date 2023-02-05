@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PLANE DETAILS</title>
+	<link rel="stylesheet" type="text/css" href="plane.css">
+</head>
+<body>
+	<div class="plane-details">
+		<h1>Plane details</h1>
+		<form action="plane.php" method="post">
+			<p>REG_NO:</p>
+			<input type="text" name="reg_no" placeholder="REG_NO">
+			<p>FAA_NO:</p>
+			<input type="text" name="faa_no" placeholder="FAA_NO">
+			
+			<p>SSN:</p>
+			<input type="text" name="ssn" placeholder="SSN">
+			
+			<button type="submit" >Submit</button></br>
+			<a align="right">click here to search using REG_NO</a>
+			<a align="right" href="testsearch.html" style="color:white">GO</a></br>
+			<a href="index.html" style="color:black" font-size="20">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="planedisplay.php" style="color:black" font-size="20">DISPLAY </a>
+		</form>
+	</div>
+</body>
+</html>

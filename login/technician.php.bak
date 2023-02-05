@@ -1,0 +1,47 @@
+<?php
+include("technician.html");
+if(isset($_POST['name']) && isset ($_POST['salary']) && isset($_POST['area']) && isset ($_POST['doorno'])  && isset ($_POST['street']) && isset ($_POST['ssn']))
+{
+    $sname="localhost";
+    $password="";
+    $db_name="airport";
+    $uname="root";
+    
+    $name=$_POST['name'];
+	$salary=$_POST['salary'];
+	$area=$_POST['area'];
+	$doorno=$_POST['doorno'];
+	$street=$_POST['street'];
+	$ssn=$_POST['ssn'];
+    
+
+    
+
+    $conn = mysqli_connect($sname , $uname , $password , $db_name);
+    if(!$conn)
+    {
+        echo "connection failed!";
+        exit();
+    }
+    if(empty($name) || empty($salary)|| empty($area) || empty($doorno) || empty($street) || empty($ssn))
+    {
+        header("location : technician.php");
+		echo "error";
+    }
+    else{
+        $sql="INSERT INTO `technician`(`name`,`salary`,`area`,`street`,`doorno`,`ssn`) VALUES ('$name','$salary','$area','$street','$doorno','$ssn')";
+        $res=mysqli_query($conn,$sql);
+        if($res)
+        {
+            echo "YOUR DETAILS ENTERED SUCCESSFULLY!";
+        }
+        else{
+        echo "YOUR MESSAGE COULD NOT BE SENT !";
+    }
+    }
+}
+else
+{
+    header("LOCATION: technician.php");
+}
+ ?>

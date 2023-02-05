@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEST DETAILS</title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+
+	<div class="test-details">
+		<h1>Test details</h1>
+		<form action="test.php" method="post">
+			<p>NAME:</p>
+			<input type="text" name="name" placeholder="NAME">
+			<P>FAA_NO</p>
+			<input type="number" name="faa_no" placeholder="FAA_NO">
+			<p>SCORE</p>
+			<input type="number" name="score" placeholder="score">
+			<button type="submit" >submit</button></br>
+			<a align="right">click here to search using faa_no</a>
+			<a align="right" href="testsearch.html" style="color:white">GO</a></br>
+			<a href="index.html"style="color:black" size="5">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="testdisplay.php" style="color:black">DISPLAY</a>
+		</form>
+	</div>
+</body>
+</html>

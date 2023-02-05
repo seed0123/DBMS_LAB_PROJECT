@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MODEL TECHNICIAN DETAILS</title>
+	<link rel="stylesheet" type="text/css" href="model_tech.css">
+</head>
+<body>
+	<div class="modeltech-details">
+		<h1>MODELTECH DETAILS</h1>
+		<form action="modeltech.php" method="post">
+			<p>model_no:</p>
+			<input type:"text" name="model_no" placeholder="MODEL_NO">
+			
+			<P>ssn:</p>
+			<input type="number" name="ssn" placeholder="SSN">
+			
+			<button type="submit" >submit</button>
+			<a href="index.html">HOME</a>
+		</form>
+	</div>
+</body>
+</html>

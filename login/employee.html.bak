@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EMPLOYEE DETAILS</title>
+	<link rel="stylesheet" type="text/css" href="employee.css">
+</head>
+
+<body>
+	<div class="employee-details">
+		<h1>Employee details</h1>
+		<form action="employee.php" method="post">
+			<p>ssn:</p>
+			<input type="number" name="ssn" placeholder="SSN">
+			<P>u_num</p>
+			<input type="number" name="u_num" placeholder="u_Num">
+			
+			<button type="submit" >submit</button></br>
+			<a align="right">click here to search using ssn</a>
+            <a align="right" href="employeesearch.html" style="color:white">GO</a></br>
+			<a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="employeedisplay.php">DISPLAY</a>
+		</form>
+	</div>
+</body>
+</html>

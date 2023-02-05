@@ -1,0 +1,35 @@
+<?php
+    include("index.html");
+    if(isset($_POST['username']) && isset($_POST['password']))
+{
+    $sname="localhost";
+    $password="";
+    $db_name="airport";
+    $uname="root";
+    $connect = mysqli_connect($sname , $uname , $password , $db_name);
+    if(!$connect){
+        die("connection to this database failed due to".mysqli_connect_error());
+    }
+    else {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+	
+
+    $check = mysqli_query($connect, "select * from $db_name.login where username='$username' and password='$password';");
+    if(mysqli_num_rows($check)>0){
+        
+        echo '<script>
+				alert("Login Successful");
+                window.location = "login/index.html";
+            </script>';
+    }
+    else{
+        echo '<script>
+                alert("Invalid credentials!");
+                window.location = "index.html";
+            </script>';
+    }
+}
+    }
+    
+?>
